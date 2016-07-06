@@ -1,0 +1,31 @@
+html{
+  height: 100%;
+}
+body {
+  font-family: "Roboto","Helvetica Neue",Helvetica,Arial,sans-serif;
+  margin: 0;
+  color: #fff;
+  /* Image file will be copied to www/resources when building */
+  background:#0143A3 url("./images/superhero-bg.png") bottom center no-repeat;
+  background-size: 100%;
+}
+
+main {
+  padding: 1em;
+  text-align: center;
+}
+footer{
+  text-align: center;
+}
+footer a{
+  color: #fff;
+}
+
+.page-body{
+  height: 100%;
+}
+
+/* autoprefixer test */
+:fullscreen a {
+  display: flex
+}

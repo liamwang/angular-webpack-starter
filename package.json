@@ -1,0 +1,41 @@
+{
+  "name": "angular-webpack-starter",
+  "version": "1.0.0",
+  "description": "An AngularJS starter for Angular 1.x + ES6 made with Webpack",
+  "scripts": {
+    "start": "webpack-dev-server --history-api-fallback --inline --progress --colors",
+    "build": "rimraf www && webpack -p --bail --progress --profile --colors"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/liamwang/angular-webpack-starter.git"
+  },
+  "author": "Liam Wang",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/liamwang/angular-webpack-starter/issues"
+  },
+  "homepage": "https://github.com/liamwang/angular-webpack-starter",
+  "dependencies": {
+    "angular": "^1.5.0",
+    "angular-ui-router": "^0.3.1"
+  },
+  "devDependencies": {
+    "autoprefixer": "^6.0.3",
+    "babel-core": "^6.2.1",
+    "babel-loader": "^6.2.0",
+    "babel-preset-es2015": "^6.1.18",
+    "copy-webpack-plugin": "^3.0.1",
+    "css-loader": "^0.23.0",
+    "extract-text-webpack-plugin": "^1.0.1",
+    "file-loader": "^0.9.0",
+    "html-loader": "^0.4.3",
+    "html-webpack-plugin": "^2.7.1",
+    "postcss-loader": "^0.8.0",
+    "raw-loader": "^0.5.1",
+    "rimraf": "^2.5.3",
+    "style-loader": "^0.13.0",
+    "webpack": "^1.12.13",
+    "webpack-dev-server": "^1.14.1"
+  }
+}

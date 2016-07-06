@@ -1,0 +1,31 @@
+.navbar{
+  background-color: rgb(25,118,210);
+  height: 56px;
+  min-height: 56px;
+  box-shadow: 0 2px 5px 0 rgba(0,0,0,0.26);
+}
+
+.navbar a{
+  color: rgb(255,255,255);
+  text-decoration: none;
+  height: 56px;
+  line-height: 56px;
+  display: block;
+  float: left;
+  padding:0 18px;
+  font-size: 16px;
+}
+.navbar a:hover{
+  background-color: rgba(158,158,158,0.2);
+}
+
+.navbar h1{
+  margin: 0 80px 0 0;
+  padding: 0;
+  height: 36px;
+  float: left;
+}
+
+.nav-links{
+  float: right;
+}
