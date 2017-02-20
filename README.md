@@ -2,7 +2,7 @@
 
 这是一个基于 Angular 1.x + ES6 + Webpack 的最小 AngularJS 自动化开发环境。
 
-注：由于本人实际项目已几乎不再使用 Angular1.x，加上 Angular2 和 Webpack2 已相继发布，所以本项目停止维护。
+**注：由于本人实际项目已几乎不再使用 Angular1.x，加上 Angular2 和 Webpack2 已相继发布，所以本项目停止维护。**
 
 ### 预览
 
