@@ -2,11 +2,9 @@
 
 这是一个基于 Angular 1.x + ES6 + Webpack 的最小 AngularJS 自动化开发环境。
 
-**注：由于本人实际项目已几乎不再使用 Angular1.x，加上 Angular2 和 Webpack2 已相继发布，所以本项目停止维护。**
-
 ### 预览
 
-![](http://i66.tinypic.com/2pra4hj.png)
+![](https://raw.githubusercontent.com/liamwang/angular-webpack-starter/master/demo.png)
 
 ## 特点
 
@@ -70,7 +68,7 @@ $ serve
 
 [MIT](/LICENSE) license
 
-## 来自作者
+## 交流反馈
 
 若有问题或疑问欢迎 [反馈](https://github.com/liamwang/angular-webpack-starter/issues)！
 
